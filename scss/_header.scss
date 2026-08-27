@@ -1,13 +1,14 @@
 .header {
     background-color: #E9ECFF;
+    height: 81px;
     .container {
         .flex_container {
             display: flex;
             justify-content: space-between;
-            height: 81px;
             .left_flex {
                 display: flex;
                 align-items: center;
+                margin-top: 27px;
                 img {
                     width: 44px;
                     height: 26px;
@@ -25,13 +26,27 @@
                 }
             }
             .right_flex {
+                margin-top: 20px;
                 nav {
                     ul {
                         display: flex;
                         li {
-                            margin-right: 60px;
+                            margin-right: 43px;
+                            font-family: 'Geist';
+                            font-weight: 400;
+                            font-size: 15px;
+                            letter-spacing: -1%;
+                            color: black;
+                            padding: 12px 17px;
+                            transition: .7s;
                             &:last-child {
                                 margin-right: 0px;
+                            }
+                            &:hover {
+                                background-color:#808CFD;
+                                cursor: pointer;
+                                transition: .7s;
+                                border-radius: 7.25px;
                             }
                         }
                     }
