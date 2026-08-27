@@ -1,0 +1,42 @@
+.header {
+    background-color: #E9ECFF;
+    .container {
+        .flex_container {
+            display: flex;
+            justify-content: space-between;
+            height: 81px;
+            .left_flex {
+                display: flex;
+                align-items: center;
+                img {
+                    width: 44px;
+                    height: 26px;
+                    margin-right: 5px;
+                }
+                h1 {
+                    a {
+                        font-family: 'AnekTamil';
+                        font-weight: 600;
+                        font-size: 20px;
+                        letter-spacing: -5%;
+                        display: block;
+                        color: black;
+                    }
+                }
+            }
+            .right_flex {
+                nav {
+                    ul {
+                        display: flex;
+                        li {
+                            margin-right: 60px;
+                            &:last-child {
+                                margin-right: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
